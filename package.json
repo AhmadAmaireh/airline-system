@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.18",
+    "uuid": "^8.3.2"
+  },
+  "name": "airline-system",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmadAmaireh/airline-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmadAmaireh/airline-system/issues"
+  },
+  "homepage": "https://github.com/AhmadAmaireh/airline-system#readme"
+}
