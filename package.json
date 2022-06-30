@@ -1,10 +1,28 @@
 {
+
   "name": "airline-system",
   "version": "1.0.0",
   "description": "Control system for Royal Jordanian Airlines where you will keep tracking each flight status by contacting the pilot of that flight who in turn will inform the manager and the system when a flight took-off and arrived.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+
+  "dependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.18",
+    "uuid": "^8.3.2"
+  },
+  "name": "airline-system",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+
   },
   "repository": {
     "type": "git",

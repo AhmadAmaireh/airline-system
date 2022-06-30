@@ -1,4 +1,5 @@
 # airline-system
+
 Control system for Royal Jordanian Airlines where you will keep tracking each flight status by contacting the pilot of that flight who in turn will inform the manager and the system when a flight took-off and arrived.
 
 ![img](./assets/UML-airline-system.png)
@@ -12,6 +13,23 @@ Lab Requirements
 For each of the three system components:
 
 The manager should:
+=======
+
+Control system for Royal Jordanian Airlines where you will keep tracking each flight status by contacting the pilot of that flight who in turn will inform the manager and the system when a flight took-off and arrived.
+
+![img](./assets/airline%20system.PNG)
+
+# We have three main components in this system:
+
+1. Manager (starting point)
+2. Pilot (taking actions)
+3. System (logging details)
+
+## Lab Requirements
+For each of the three system components:
+
+* The manager should:
+
 
 Alert the pilot and the system when there is a new flight.
 Be notified when a flight has arrived.
@@ -96,3 +114,8 @@ Flight {
     }
 }
 Manager: we’re greatly thankful for the amazing flight, Jane doe
+
+=======
+
+
+
